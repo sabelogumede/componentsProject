@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ElementsHomeComponent } from '../elements/elements-home/elements-home.component';
+import { CollectionsHomeComponent } from './collections-home/collections-home.component'
 
 const routes: Routes = [
-  { path: 'elements', component: ElementsHomeComponent }
+  { path: 'collections', component: CollectionsHomeComponent }
 ];
+
+// const routes: Routes = [
+//   { path: 'elements', component: ElementsHomeComponent }
+// ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
